@@ -203,3 +203,25 @@ nav ul li a:hover
 {
 	background-color: rgba(140,140,140,1) !important;
 }
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+	/* Pour les écrans dont la taille est de type iPhone 5 */
+	#cta p
+	{
+		font-size: 1.05em;
+		line-height: 17px;
+	}
+	ul li
+	{
+		width: 47%;
+	}
+	ul li a, ul li a:hover, ul li a:active
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	nav ul li a, nav ul li a:hover, nav ul li a:active
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+}
