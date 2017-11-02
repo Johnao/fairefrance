@@ -109,8 +109,9 @@ p
 	font-family: 'KG';
 	line-height: 20px;
 	font-size: 1.1em;
-	background-color: rgba(50,50,50,0.2);
+	background-color: rgba(133,181,64,0.3);
 	margin-bottom: 5px;
+	display: none;
 }
 #cta a, #cta a:hover, #cta a:active
 {
@@ -122,6 +123,7 @@ p
 	background-color: rgba(133,181,64,0.9);
 	box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.75);
 	font-family: 'Light';
+	margin-right: -2000px;
 }
 #cta a:hover
 {
@@ -135,6 +137,10 @@ ul
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+#pageone ul li
+{
+	margin-left: -2000px;
 }
 ul li
 {
