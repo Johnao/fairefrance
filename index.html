@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">							<!-- Information destinée aux moteurs de recherche : langue du site -->
+    <head>
+        <meta charset="utf-8" />			<!-- Information destinée aux navigateurs : encodage -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 	<!-- Information destinée aux navigateur : taille écran appareil -->
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />	<!-- Import de la feuille de style jQuery Mobile depuis un CDN -->
+        <link rel="stylesheet" href="style.css" />						<!-- Import de la feuille de style principale -->
+        <title>FaireFrance</title>
+        <meta name="description" content="Là où le consommateur devient consomm'acteur !" />			<!-- Information destinée aux moteurs de recherche : description du site -->
+        <meta name="keywords" content="fairefrance, ff, lait, equitable, creme, crème, équitable" /> 			<!-- Information destinée aux moteurs de recherche : mot-clefs du site -->
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>			<!-- Import de la bibliothèque jQuery depuis un CDN -->
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>		<!-- Import de la bibliothèque jQuery Mobile depuis un CDN -->
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="pageone">			<!-- Spécificités jQuery Mobile : bloc délimitant la première page -->
+            <div data-role="header">				<!-- Spécificités jQuery Mobile : bannière du site -->
+                <div id="intro">
+                    <h1>FaireFrance</h1>
+                    <h2>Bonjour ! Bienvenue sur votre site « le lait équitable & connecté » !</h2>
+                </div>
+                <img src="header_ff.png" alt="FaireFrance" />
+            </div>
+            <div data-role="main" class="ui-content">   <!-- Spécificités jQuery Mobile : contenu de la page -->
+                <p>Avant tout, un message à faire passer</p>
+                <div id="cta">
+                    <p>
+                        FaireFrance a pour objectif de rémunérer équitablement industriel, distributeur et producteur. Mais ce n’est pas tout.<br />
+                        Les agriculteurs apprécient les animations qu’ils réalisent dans les magasins proches de chez vous, et à FaireFrance on a souhaité entretenir ce lien qui se crée lors de ces animations.<br />
+                        L’idée d’un lait équitable et connecté, où vous pourrez continuer à échanger, donner votre avis et vous informer sur les actualités liées à FaireFrance est ainsi naturellement né.
+                    </p>
+                    <a href="https://johnao.typeform.com/to/NC36Nu">Je donne mon avis !</a>
+                </div>
+                <p>Que souhaitez-vous découvrir ensuite ?</p>
+                <ul>
+                    <li>
+                        <a href="#pagetwo" data-transition="slidefade">
+                            Votre marque<br />
+                            <span class="description">Quels héros se cachent derrière cette brique ?</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#pagethree" data-transition="slidefade">
+                            Votre jeu<br />
+                            <span class="description">Spécialement concocté pour faire sourire petits et grands !</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="page" id="pagetwo">
+            <div data-role="header">
+                <div id="intro">
+                    <h1>Votre marque</h1>
+                    <h2>Qu'y a-t-il à savoir sur votre fournisseur de lait préféré ?</h2>
+                </div>
+                <img src="header_ff.png" alt="FaireFrance" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#pageone" data-transition="slidefade" data-direction="reverse">Accueil</a></li>
+                    <li><a href="#pagetwo" data-transition="slidefade" class="button_on">Votre marque</a></li>
+                    <li><a href="#pagethree" data-transition="slidefade">Votre jeu</a></li>
+                    <li><a href="https://johnao.typeform.com/to/NC36Nu" data-transition="slidefade">Notre enquête</a></li>
+                </ul>
+            </nav>
+            <div data-role="main" class="ui-content">   <!-- Spécificités jQuery Mobile : contenu de la page -->
+
+            </div>
+        </div>
+        <div data-role="page" id="pagethree">
+            <div data-role="header">
+                <div id="intro">
+                    <h1>Votre jeu</h1>
+                    <h2>
+                        Taux d'amusement : 99.9%<br />
+                        Taux d'ennui : 00.1%<br />
+                        Marge d'erreur : 00.1%
+                    </h2>
+                </div>
+                <img src="header_ff.png" alt="FaireFrance" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#pageone" data-transition="slidefade" data-direction="reverse">Accueil</a></li>
+                    <li><a href="#pagetwo" data-transition="slidefade" data-direction="reverse">Votre marque</a></li>
+                    <li><a href="#pagethree" data-transition="slidefade" class="button_on">Votre jeu</a></li>
+                    <li><a href="https://johnao.typeform.com/to/NC36Nu" data-transition="slidefade">Notre enquête</a></li>
+                </ul>
+            </nav>
+            <div data-role="main" class="ui-content">   <!-- Spécificités jQuery Mobile : contenu de la page -->
+
+            </div>
+        </div>
+    </body>
+</html>

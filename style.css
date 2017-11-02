@@ -1,0 +1,205 @@
+@font-face 
+{
+    font-family: 'Geo';
+    	src: url('font/GeosansLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+    font-family: 'Brush';
+    	src: url('font/Brush.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+    font-family: 'KG';
+    	src: url('font/KGHAPPY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+    font-family: 'Light';
+    	src: url('font/TheLightFont.otf') format('opentype');
+    	src: url('font/TheLightFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 0.85em;
+	color: black;
+	font-family: 'Geo', Arial, sans-serif;
+	overflow-x: hidden;
+}
+[data-role=page]
+{
+	margin: 0;
+	padding: 0;
+}
+[data-role=header]
+{
+	margin: 0;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white !important;
+}
+#intro
+{
+	margin: 0;
+	padding: 5px;
+}
+#intro h1, #intro h2
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#intro h1
+{
+	font-size: 1.2em;
+	font-family: 'Light';
+}
+#intro h2
+{
+	font-size: 1em;
+	font-style: italic;
+}
+[data-role=main]
+{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+p
+{
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.1em;
+}
+#cta
+{
+	margin: 0;
+	padding: 0;
+	background-image: url('cta.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#cta p, #cta a, #cta a:active, #cta a:hover
+{
+	color: white;
+	text-shadow: 0px 0px 12px rgba(150, 150, 150, 1);
+	padding: 5px;
+}
+#cta p
+{
+	text-align: right;
+	font-family: 'KG';
+	line-height: 20px;
+	font-size: 1.1em;
+	background-color: rgba(50,50,50,0.2);
+	margin-bottom: 5px;
+}
+#cta a, #cta a:hover, #cta a:active
+{
+	font-size: 1.3em;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	width: 50%;
+	background-color: rgba(133,181,64,0.9);
+	box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.75);
+	font-family: 'Light';
+}
+#cta a:hover
+{
+	background-color: rgba(133,181,64,1);
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ul li
+{
+	margin: 0;
+	padding: 0;
+	width: 45%;
+}
+ul li a, ul li a:hover, ul li a:active
+{
+	color: white !important;
+	text-shadow: none !important;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background-color: rgba(133,181,64,0.9);
+	box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.75);
+	padding: 5px;
+}
+ul li a:hover
+{
+	background-color: rgba(133,181,64,1);
+}
+.description
+{
+	font-size: 0.9em;
+}
+nav
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 2px 3px 0px rgb(70,70,70);
+}
+nav ul li
+{
+	margin: 0;
+	padding: 0;
+	width: 25%;
+}
+nav ul li a, nav ul li a:hover, nav ul li a:active
+{
+	color: white !important;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background-color: rgba(133,181,64,1);
+	padding: 5px;
+	box-shadow: none;
+	border-bottom: 1px solid rgb(140,140,140);
+}
+nav ul li a:hover
+{
+	background-color: rgba(140,140,140,1) !important;
+}
+.button_on
+{
+	background-color: rgba(140,140,140,1) !important;
+}
