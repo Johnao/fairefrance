@@ -87,14 +87,14 @@ p
 #cta
 {
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	background-image: url('cta.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	height: 60vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 #cta p, #cta a, #cta a:active, #cta a:hover
@@ -124,6 +124,7 @@ p
 	box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.75);
 	font-family: 'Light';
 	margin-right: -2000px;
+	margin-bottom: 20px;
 }
 #cta a:hover
 {
@@ -138,20 +139,22 @@ ul
 	justify-content: space-around;
 	align-items: center;
 }
+#pageone ul
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
 #pageone ul li
 {
 	margin-left: -2000px;
+	height: 75px;
 }
 ul li
 {
 	margin: 0;
 	padding: 0;
-	width: 45%;
-	z-index: 1;
-}
-ul .middle
-{
-	z-index: 10;
+	width: 33%;
+	height: 100%;
 }
 ul li a, ul li a:hover, ul li a:active
 {
@@ -161,8 +164,14 @@ ul li a, ul li a:hover, ul li a:active
 	text-align: center;
 	display: block;
 	background-color: rgba(134,182,65,0.9);
-	box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 1px 0px rgba(50, 50, 50, 0.75);
 	padding: 5px;
+	font-weight: bold;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 ul li a:hover
 {
@@ -171,6 +180,9 @@ ul li a:hover
 .description
 {
 	font-size: 0.9em;
+	font-style: italic;
+	line-height: 0.7em;
+	font-weight: none;
 }
 nav
 {
@@ -189,6 +201,7 @@ nav ul
 	justify-content: center;
 	align-items: center;
 	box-shadow: 1px 2px 3px 0px rgb(70,70,70);
+	margin-bottom: 5px;
 }
 nav ul li
 {
@@ -210,6 +223,7 @@ nav ul li a, nav ul li a:hover, nav ul li a:active
 	font-size: 0.9em;
 	box-shadow: none;
 	border-bottom: 1px solid rgb(140,140,140);
+	text-shadow: none;
 }
 nav ul li a:hover
 {
@@ -229,8 +243,10 @@ nav ul li a:hover
 {
 	padding-top: 0;
 	margin-top: 0;
-	background-image: url('bg.jpg');
-	color: white;
+}
+#pagetwo .ui-content a
+{
+	color: inherit;
 }
 #pagetwo .ui-content img, #pagetwo .ui-content p, #pagetwo .ui-content h4
 {
@@ -247,22 +263,22 @@ nav ul li a:hover
 }
 #pagetwo .ui-content h4
 {
-	color: rgba(164,202,95,1);
+	font-weight: bold;
 	font-size: 1.3em;
 	text-decoration: underline;
 }
 #pagethree .ui-content img
 {
-	box-shadow: 0px 0px 5px 0px rgba(30, 30, 30, 1);
+	box-shadow: 0px 0px 1px 0px rgba(30, 30, 30, 1);
 }
 #pagefour .ui-content img
 {
 	box-shadow: 0px 0px 5px 0px rgba(30, 30, 30, 1);
-	margin-top: 10px;
 }
-#pagefour .ui-content img[src="yaourt.png"]
+#pagefour .ui-content p
 {
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
 	/* Pour les écrans dont la taille est de type iPhone 5 */

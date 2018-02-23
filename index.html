@@ -34,20 +34,26 @@
                 <ul>
                     <li>
                         <a href="#pagetwo" data-transition="slidefade">
-                            Votre marque<br />
-                            <span class="description">Quels héros se cachent derrière cette brique ?</span>
+                            <div class="el">
+                                Votre marque<br />
+                                <span class="description">Quels héros se cachent derrière cette brique ?</span>
+                            </div>
                         </a>
                     </li>
                     <li>
                         <a href="#pagethree" data-transition="slidefade" class="middle">
-                            Votre jeu<br />
-                            <span class="description">Spécialement concocté pour faire sourire petits et grands !</span>
+                            <div class="el">
+                                Votre jeu<br />
+                                <span class="description">Spécialement concocté pour faire sourire petits et grands !</span>
+                            </div>
                         </a>
                     </li>
                     <li>
                         <a href="#pagefour" data-transition="slidefade">
-                            Vos recettes<br />
-                            <span class="description">Pour cuisiner équitable avec FaireFrance !</span>
+                            <div class="el">
+                                Vos recettes<br />
+                                <span class="description">Pour cuisiner équitable avec FaireFrance !</span>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -72,7 +78,6 @@
             </nav>
             <div data-role="main" class="ui-content">   <!-- Spécificités jQuery Mobile : contenu de la page -->
             	<!-- <iframe width="350" height="285" src="https://www.youtube.com/embed/2TqmZidgCp0?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe> -->
-                    <img src="logo_ff.png" alt="Logo de FaireFrance" />
                     <p>Justine sauve les éleveurs et leur famille pour qu'ils continuent dignement le métier qu'ils aiment.</p>
                     <img src="photo1.png" alt="Première photo" />
                     <h4>Les 4 engagements de FaireFrance</h4>
@@ -84,6 +89,11 @@
                     <img src="photo4.png" alt="Quatrième photo" />
                     <p>4. FaireFrance est le pionnier du lait équitable !</p>
                     <img src="photo5.png" alt="Cinquième photo" />
+                    <p>
+                    Vous souhaitez en savoir plus ?<br />
+                    Visitez le site de FaireFrance ici :<br />
+                    <a href="http://fairefrance.fr" alt="Site de FaireFrance">fairefrance.fr</a>
+                </p>
             </div>
         </div>
         <div data-role="page" id="pagethree">
@@ -106,12 +116,9 @@
                 </ul>
             </nav>
             <div data-role="main" class="ui-content">   <!-- Spécificités jQuery Mobile : contenu de la page -->
-                <p>Aidez Justine à retrouver sa brique FaireFrance !</p>
-                <img src="laby.svg" alt="Labyrinthe" width="350px" /><br />
-                <!-- <p>Où est Justine ?</p>
-                <img src="ouestj.svg" alt="Où est Justine ?" width="350px" /><br />
-                <p>Aidez-nous à trouver les 7 erreurs dans ces images !</p>
-                <img src="erreur.svg" alt="Les 7 erreurs" width="350px" /> -->
+                <p>Dans ce petit jeu, vous pouvez aider Justine à retrouver sa brique FaireFrance !</p>
+                <img src="testmaze.svg" alt="Labyrinthe" width="120%" /><br />
+                <p>D'autres jeux plus élaborés sont à venir, restez connectés.</p>
             </div>
         </div>
         <div data-role="page" id="pagefour">
@@ -134,8 +141,11 @@
                 </ul>
             </nav>
             <div data-role="main" class="ui-content">   <!-- Spécificités jQuery Mobile : contenu de la page -->
+                <p>Pour cette première recette, nous vous invitons à découvrir le Milkshake<br />made in FaireFrance.</p>
                 <img src="milkshake.png" alt="Recette du Milkshake" />
+                <p>Dans cette seconde recette, préparez un yaourt original avec FaireFrance.</p>
                 <img src="yaourt.png" alt="Recette du Yahourt" />
+                <p>À venir, d'autres recettes pour affûter votre imagination en compagnie de Justine !</p>
             </div>
         </div>
     </body>
